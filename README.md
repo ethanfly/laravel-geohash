@@ -31,6 +31,9 @@ class IndexController extends Controller
         //取出相邻八个区域
         $neighbors = GeoHash::neighbors($geo);
         array_push($neighbors, $geo);
+        //获取两点距离
+        $distance=GeoHash::GetDistanceByPoint($lat1,$lng1,$lat2,$lng2);//两点经纬度
+        $distance=GeoHash::GetDistanceByHash($hash1,$hash2);//两点hash值
     }
 }
 
