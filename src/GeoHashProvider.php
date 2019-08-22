@@ -1,6 +1,6 @@
 <?php
 
-namespace Geohash;
+namespace GeoHash;
 
 use Illuminate\Support\ServiceProvider;
 

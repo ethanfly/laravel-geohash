@@ -14,16 +14,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Geohash\\": "src/"
+            "GeoHash\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Geohash\\GeoHashProvider"
+                "GeoHash\\GeoHashProvider"
             ],
             "aliases": {
-                "GeoHash": "Geohash\\GeoHashFacade"
+                "GeoHash": "GeoHash\\GeoHashFacade"
             }
         }
     }

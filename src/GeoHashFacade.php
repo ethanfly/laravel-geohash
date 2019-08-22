@@ -1,5 +1,5 @@
 <?php
-namespace Geohash;
+namespace GeoHash;
 
 
 use Illuminate\Support\Facades\Facade;
@@ -8,7 +8,7 @@ class GeoHashFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return Geohash::class;
+        return GeoHash::class;
     }
 
 }

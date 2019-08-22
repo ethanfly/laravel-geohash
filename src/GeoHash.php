@@ -1,8 +1,8 @@
 <?php
 
-namespace Geohash;
+namespace GeoHash;
 
-class Geohash
+class GeoHash
 {
     private $bitss = [16, 8, 4, 2, 1];
     private $neighbors = [];
