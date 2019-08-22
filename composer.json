@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ethan\\laravel-geohash\\ServiceProvider"
+                "Geohash\\GeoHashProvider"
             ],
             "aliases": {
-                "GeoHash": "ethan\\laravel-geohash\\Facade"
+                "GeoHash": "Geohash\\GeoHashFacade"
             }
         }
     }
