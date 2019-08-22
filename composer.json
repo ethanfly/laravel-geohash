@@ -23,7 +23,7 @@
                 "GeoHash\\GeoHashProvider"
             ],
             "aliases": {
-                "GeoHash": "GeoHash\\GeoHashFacade"
+                "GeoHash": "GeoHash\\Facades\\GeoHash"
             }
         }
     }

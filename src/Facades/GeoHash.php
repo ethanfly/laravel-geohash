@@ -1,11 +1,11 @@
 <?php
 
-namespace GeoHash;
+namespace GeoHash\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
 
-class GeoHashFacade extends Facade
+class GeoHash extends Facade
 {
     protected static function getFacadeAccessor()
     {
