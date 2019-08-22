@@ -1,4 +1,5 @@
 <?php
+
 namespace GeoHash;
 
 
@@ -8,7 +9,7 @@ class GeoHashFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return GeoHash::class;
+        return 'geohash';
     }
 
 }
