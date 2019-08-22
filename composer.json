@@ -1,0 +1,30 @@
+{
+    "name": "ethan/laravel-geohash",
+    "description": "Implementation of geohash's laravel extension package",
+    "authors": [
+        {
+            "name": "ethanfly",
+            "email": "i@bii.bi"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Geohash\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ethan\\laravel-geohash\\ServiceProvider"
+            ],
+            "aliases": {
+                "GeoHash": "ethan\\laravel-geohash\\Facade"
+            }
+        }
+    }
+}
