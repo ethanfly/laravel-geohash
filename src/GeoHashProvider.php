@@ -31,7 +31,7 @@ class GeoHashProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->singleton(Geohash::class, function (){
+        $this->app->singleton(GeoHash::class, function (){
             return new GeoHash();
         });
     }
@@ -43,7 +43,7 @@ class GeoHashProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [Geohash::class];
+        return [GeoHash::class];
     }
 
 
